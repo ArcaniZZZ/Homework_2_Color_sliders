@@ -20,11 +20,11 @@ class ViewController: UIViewController {
         slider.value = 0.50
         
         // MARK Slider Value Label
-        sliderValue.text = String(format: "%.2f", slider.value)
+        sliderValue.text = String(format: "%.3f", slider.value)
     }
 
     @IBAction func changeLevelOfRed() {
-        sliderValue.text = String(format: "%.2f", slider.value)
+        sliderValue.text = String(format: "%.3f", slider.value)
     }
     
 }
