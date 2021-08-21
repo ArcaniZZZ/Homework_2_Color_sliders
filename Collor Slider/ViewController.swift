@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeLevelOfRed() {
-        
         sliderValue.text = String(format: "%.2f", slider.value)
     }
     

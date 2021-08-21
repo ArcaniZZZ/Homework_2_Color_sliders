@@ -39,7 +39,7 @@
                                     <slider opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dB3-8k-FwO">
                                         <rect key="frame" x="81.5" y="0.0" width="200.5" height="31"/>
                                         <connections>
-                                            <action selector="changeLevelOfRed" destination="BYZ-38-t0r" eventType="valueChanged" id="fme-jU-Uii"/>
+                                            <action selector="changeLevelOfRed" destination="BYZ-38-t0r" eventType="valueChanged" id="sww-Co-nhP"/>
                                         </connections>
                                     </slider>
                                 </subviews>
@@ -60,7 +60,7 @@
                     </view>
                     <connections>
                         <outlet property="colorBoxView" destination="D4W-Hl-bMX" id="A6t-Jh-akN"/>
-                        <outlet property="slider" destination="dB3-8k-FwO" id="o2U-qf-ggg"/>
+                        <outlet property="slider" destination="dB3-8k-FwO" id="X7g-B5-9h2"/>
                         <outlet property="sliderValue" destination="CkM-1w-Lmw" id="Y2W-GH-DHj"/>
                     </connections>
                 </viewController>
