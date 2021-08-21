@@ -24,8 +24,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeLevelOfRed() {
-//        sliderValue.text = String(round(slider.value * 100) / 100)
-        sliderValue.text = 
+        
+        sliderValue.text = String(format: "%.2f", slider.value)
     }
     
 }
