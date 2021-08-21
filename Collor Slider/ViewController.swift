@@ -8,10 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var colorBoxView: UIView!
+    @IBOutlet var sliderValue: UILabel!
+    @IBOutlet var slider: UISlider!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        sliderValue.text = String(slider.value)
     }
 
 
